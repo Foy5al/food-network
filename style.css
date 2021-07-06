@@ -33,6 +33,7 @@ p{
 .screen_divider{
     display: flex;
     margin-bottom: 120px;
+    justify-content: space-between;
 }
 .half_width{
     width: 50%;
@@ -113,5 +114,4 @@ p{
     background-color: #0B0D17;
     padding: 30px;
     height: 130px;
-    
 }
