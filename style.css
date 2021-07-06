@@ -1,18 +1,28 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
 }
 .org_color{
     color: #FBA24F;
 }
 h1{
-    font-size: 60px;
+    font-size: 59px;
     color: #575757;
+    font-weight: 900;
+}
+h2{
+    font-weight: 900;
+    color: #575757;
+}
+h3{
+    color: black;
     font-weight: 900;
 }
 p{
     color: #828282;
     font-size: 20px;
+    text-align: justify;
 }
 
 .screen_divider{
@@ -23,9 +33,11 @@ p{
     width: 50%;
     padding-left: 5%;
     padding-top: 5%;
+    padding-right: 5%;
 }
 .half_width img {
     width: 90%;
+    
 }
 .button_color {
     text-decoration: none;
@@ -39,4 +51,29 @@ p{
 .about{
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
+}
+.recipie_txt{
+    text-align: center;
+}
+
+#card_img {
+    padding: 5px;
+    
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 20px 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.card_cont {
+    width: 30%;   
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 15px 15px 40px gray;
+}
+#footer{
+        text-align: center;
 }
