@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;;
     color: whitesmoke;
 }
 .org_color{
@@ -12,6 +12,7 @@ h1{
     font-weight: 900;
 }
 h2{
+    font-size: 40px;
     font-weight: 900;
     color: #575757;
 }
@@ -26,8 +27,7 @@ h4{
 }
 p{
     color: #828282;
-    font-size: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 .screen_divider{
@@ -79,16 +79,22 @@ p{
     padding: 10px;
     box-shadow: 10px 10px 50px gray;
 }
-
+#card_text{
+    font-size: 18px;
+}
+#audiance_num {
+    color: black;
+}
 .social_info_box {
     display: flex;
     justify-content: space-between;
     width: 90%; 
     margin: 5%;
     border-radius: 20px;
-    box-shadow: 10px 10px 50px gray;
+    box-shadow: 2px 2px 35px rgb(172, 172, 172);
 }
 #social_info_text {
+    font-weight: 700;
     text-align: center;
     padding: 5%;
 }
@@ -102,5 +108,7 @@ p{
     width: 100%; 
     margin: 0%;
     background-color: #0B0D17;
+    padding: 30px;
+    height: 130px;
     
 }
