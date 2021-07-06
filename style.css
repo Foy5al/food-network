@@ -19,10 +19,15 @@ h3{
     color: black;
     font-weight: 900;
 }
+h4{
+    color: black;
+    font-weight: 900;
+    font-size: larger;
+}
 p{
     color: #828282;
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .screen_divider{
@@ -69,11 +74,33 @@ p{
 }
 .card_cont {
     width: 30%;   
-    margin: 20px;
+    margin: 15px;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 15px 15px 40px gray;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.social_info_box {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; 
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px gray;
+}
+#social_info_text {
+    text-align: center;
+    padding: 5%;
 }
 #footer{
         text-align: center;
+}
+.gray_color{
+    color: #575757;
+}
+.footer_box{
+    width: 100%; 
+    margin: 0%;
+    background-color: #0B0D17;
+    
 }
